@@ -4,68 +4,213 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="../css/portfolio.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
+
+    <!-- about section css -->
+    <link rel="stylesheet" href="../css/aboutsection.css">
+
+    <!-- service  section css  -->
+    <link rel="stylesheet" href="../css/servicesection.css">
+
     <title>Yasira's Portfolio</title>
+
 </head>
+
 <body>
+
     <header>
+
         <!-- nav section -->
         <nav>
-            <div id="logoName"><span>S</span>ira_<span>T</span>he_<span>N</span>iqqabist</div>
+
+            <div id="logoName">
+
+                <span>S</span>ira_<span>T</span>he_<span>N</span>iqqabist
+
+            </div>
+
             <ul>
+
                 <li><a href="#">Home</a></li>
+
                 <li><a href="#">About</a></li>
-                <li><a href="#">Project</a></li>
+
                 <li><a href="#">Service</a></li>
+
             </ul>
+
         </nav>
+
         <figure id="figure">
-            <img src="../image/yasira.png" alt="">
+
+            <img src="../image/yasira.png" alt="sira photo head">
+
         </figure>
+
         <!-- reveal_animatae section -->
         <div id="reveal_animate">
+
             <div class="detail container">
+
                 <h1>Hello, <span></span></h1>
+
                 <h1>I'm Yasira<span></span></h1>
-                <h1>A Full Stack Software Developer<span></span></h1>
+
+                <h1>A Software Developer<span></span></h1>
+
                 <button id="button">Hire me </button>
+
             </div>
+
         </div>
         <!-- end of reveal_animate -->
+
     </header>
-    <section>
-        <div id="section">
-            <div class="aboutImage">
-                <img src="../image/yasira.jpg" alt="">
-                <div id="box1"></div>
+
+    <!-- about <section> -->
+        <div id="aboutsection">
+                
+            <!-- image section  -->
+            <div>
+
+                <!-- this the extra border around the image  -->
+                <div class="image_cover"></div>
+
+                <div class="aboutImage">
+
+                    <img src="../image/yasira.jpg" alt="personal photo">
+                    
+                </div>
+
             </div>
+
+            <!-- about me content  -->
             <div id="about">
-                <h1>About  <span>Me</span></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates necessitatibus eos saepe ab eius beatae,           
+
+                <h1>About <span>Me</span></h1>
+
+                <!-- this the extra border beneath the about me text with the color yellow  -->
+                <div class="h1container"></div>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates necessitatibus eos saepe ab eius beatae,           
                     sint Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolor hic similique, expedita nostrum laborum molestiae provident voluptates pariatur quasi natus, omnis rem deserunt obcaecati a neque cum minima eum?
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum repellat quod aspernatur rerum doloremque, veritatis commodi dolorem nihil quam pariatur dolorum voluptatem laudantium labore hic voluptate atque ea odio! Impedit.
-                     explicabo id odio error dolor perspiciatis ducimus ut eligendi voluptatem repellendus cupiditate hic animi.
+                    explicabo id odio error dolor perspiciatis ducimus ut eligendi voluptatem repellendus cupiditate hic animi.
                 </p>
+
+                <!-- button section  -->
                 <div class="but">
+
                     <button id="but" >Hire me</button>
+
+                    <!-- link  -->
                     <a href="#" id="but">Download Cv</a>
-                </div>    
+
+                </div>   
+
             </div>
+
         </div>
-    </section>
+
+    <!--about me </section> ends here -->
+
+    <!-- project section  -->
     <section id="project">
-          <div id="projectCards">
-              <div id="cards">b dvkbhef</div>
-              <div id="cards">kjtskj</div>
-              <div id="cards">khrfwhkwr</div>
-              <div id="cards">kjre</div>
-              <div id="cards">jkerwjkf</div>
-              <div id="cards">rfhkre</div> 
-              <div id="cards">nkrf</div>
-              <div id="cards">jknhr3fhn</div>
-          </div>  
+
+        <div class="projectContainer">
+
+            <div class="serviceText">
+
+                <h1>Services</h1>
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, voluptatibus ab earum, 
+                    nam harum voluptates quibusdam illo laboriosam 
+                    iste eligendi tenetur, cum id expedita repudiandae libero corporis maxime amet neque!
+                </p>
+
+            </div>    
+
+            <div id="projectCards">
+
+                <div class="cards">
+                        
+                    <div class="img">
+
+                        <img src="../image/weddev.png" alt="web development">
+
+                    </div>
+
+                    <h4>Web Development</h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique laborum, expedita, iste necessitatibus impedit nemo at nam odio 
+                        recusandae labore repellendus? Totam repudiandae et quibusdam saepe illo alias, dolore omnis!
+                    </p>
+
+                </div>
+
+                <div class="cards">
+
+                    <div class="img">
+
+                        <img src="../image/webdesign.png" alt="web design">
+
+                    </div>
+
+                    <h4>Web Design</h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique laborum, expedita, iste necessitatibus impedit nemo at nam odio 
+                        recusandae labore repellendus? Totam repudiandae et quibusdam saepe illo alias, dolore omnis!
+                    </p>
+
+                </div>
+
+                <div class="cards">
+
+                    <div class="img">
+
+                        <img src="../image/ux (1).png" alt="ui ux design">
+
+                    </div>
+
+                    <h4>Ui Ux Design</h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique laborum, expedita, iste necessitatibus impedit nemo at nam odio 
+                        recusandae labore repellendus? Totam repudiandae et quibusdam saepe illo alias, dolore omnis!
+                    </p>
+
+                </div>
+
+                <div class="cards">
+
+                    <div class="img">
+
+                        <img src="../image/ux (1).png" alt="graphic design">
+
+                    </div>
+
+                    <h4>Graphic Design</h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique laborum, expedita, iste necessitatibus impedit nemo at nam odio 
+                        recusandae labore repellendus? Totam repudiandae et quibusdam saepe illo alias, dolore omnis!
+                    </p>
+
+                </div>
+
+            </div> 
+
+        </div>
+
     </section>
+    <!-- project section  -->
+
     <script src="../js/portfolio.js"></script>
+
 </body>
 </html>
