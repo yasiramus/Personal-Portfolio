@@ -1,11 +1,11 @@
-#project {
+#service {
 
     background:#1b1717;
     height: auto;
 
 }
 
-.projectContainer {
+.serviceContainer {
 
     width: 85%;
     margin: auto;
@@ -29,7 +29,7 @@
 
 }
 
-.servicecontainer {
+.servicetextcontainer {
 
     background-color: darkgoldenrod;
     width: 8rem;

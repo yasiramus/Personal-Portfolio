@@ -66,8 +66,9 @@
 
     width: 600px;
     margin: 20px 0;
-    font-size: 1.8rem;
-    font-weight: 200;
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 2;
 
   }
 
@@ -80,7 +81,7 @@
   #but {
 
       display: inline-block;
-      font-size: 2rem;
+      font-size: 1.6rem;
       text-transform: uppercase;
       background: transparent;
       padding: 15px 22px;

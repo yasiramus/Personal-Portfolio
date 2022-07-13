@@ -94,7 +94,7 @@ header::after {
 
 ul {
 
-  font-size: 2.2rem;
+  font-size: 2rem;
   list-style: none;
   display: flex;
   justify-content: space-evenly;
@@ -266,7 +266,7 @@ nav a:hover {
   right: 30rem;
   top: 25rem;
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   background: transparent;
   padding: 15px 22px;
