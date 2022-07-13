@@ -13,15 +13,14 @@ html {
 
   font-size: 10px;
   font-family: "Lobster", "cursive", "Roboto", "Poppins", "Haettenschweiler","Arial Narrow Bold", sans-serif;
-  color: #ffffff;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 
 }
 
 body {
 
-  /* background-color: blue; */
-  height: 100vh;
+  color: #ffffff;
 
 }
 
@@ -80,17 +79,18 @@ header::after {
 }
 
 #logoName span {
-    color: rgb(204, 119, 8);
+    
+  color: rgb(204, 119, 8);
 
-  }
+}
 
-  /* js stricky styling */
-  .sticky {
+/* js stricky styling */
+.sticky {
 
-    background-color: #2a2a2a;
-    padding: 15px 40px;
+  background-color: #2a2a2a;
+  padding: 15px 40px;
   
-  }
+}
 
 ul {
 
@@ -102,16 +102,9 @@ ul {
 
 }
 
-nav a {
-
-  text-decoration: none;
-  color: #ffffff;
-
-}
-
 nav a:hover {
 
-  color: #2a2a2a;
+  color: #000;
   transition: 0.3s ease-in;
   cursor: pointer;
 

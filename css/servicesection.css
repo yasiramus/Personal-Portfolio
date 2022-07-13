@@ -80,7 +80,6 @@
 }
 .cards:nth-child(1) {
 
-    /* background-color: blue; */
     background: #2a2a2a;
 
 }
@@ -99,7 +98,7 @@
 
 .cards:nth-child(4) {
 
-    background-color: violet;
+    background-color: rgb(236, 8, 236);
 
 }
 
