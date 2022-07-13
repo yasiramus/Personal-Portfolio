@@ -20,7 +20,31 @@
 
 }
 
+.serviceText h1 {
 
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: .4rem;
+    margin-bottom: 10px;
+
+}
+
+.servicecontainer {
+
+    background-color: darkgoldenrod;
+    width: 8rem;
+    height: 5px;
+    margin-top: -8px;
+
+}
+
+.serviceText p {
+
+    width: 50%;
+    padding: 20px 0;
+    font-size: 1.4rem;
+
+}
 
 #projectCards{
 
@@ -32,19 +56,38 @@
 
 .cards {
 
-    padding: 2rem 4rem;
+    padding:3rem 4rem;
+    color: #fff;
     
 }
 
+.cards h4 {
+
+    padding: 20px 0;
+    font-size: 15px;
+    line-height: .5;
+    font-weight: 100;
+    text-transform: capitalize;
+
+}
+
+.cards p {
+
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 2;
+    
+}
 .cards:nth-child(1) {
 
-    background-color: blue;
+    /* background-color: blue; */
+    background: #2a2a2a;
 
 }
 
 .cards:nth-child(2) {
 
-    background-color: yellow;
+  background-color: rgb(204, 119, 8);
 
 }
 
